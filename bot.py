@@ -96,7 +96,7 @@ def get_announce_channel(guild):
 
 # ----------------- TWITCH CHECK -----------------
 
-TWITCH_STREAMER = "YourTwitchName"
+TWITCH_STREAMER = "Ch0ppyyy"
 twitch_token = None
 last_live_status = False
 
@@ -150,7 +150,7 @@ async def twitch_check():
 
 # ----------------- YOUTUBE CHECK -----------------
 
-YOUTUBE_CHANNEL_ID = "YourYouTubeChannelID"
+YOUTUBE_CHANNEL_ID = "UC9sdzpIS6s3fPHIr2aL9jCA"
 last_video_id = None
 
 async def fetch_latest_youtube():
